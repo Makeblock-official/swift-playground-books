@@ -4,13 +4,15 @@ import UIKit
 
 let viewController = BasicControlViewController()
 public var execiseCode:(()-> Void)?
+public var execiseWithViewController:((BasicControlViewController)-> Void)?
 public var cmd:BasicCommands!
 
 public func runWithCommands() {
     viewController.listenStartButtonClicked = { sender in
         cmd = BasicCommands(robot: viewController.mBot)
         
-        execiseCode!()
+        execiseCode?()
+        execiseWithViewController?(viewController)
     }
     
     PlaygroundPage.current.liveView = viewController
@@ -60,19 +62,22 @@ public func beepSol() {
     cmd.beepSol()
 }
 
-// subscribing functions are called outside of button-click listeners.
-public func subscribeUltrasonicSensor() {
-    // TODO: when called, read the sensor every 0.x seconds.
+public func subscribeUltrasonicSensor(callback:@escaping (Float)->Void) {
+    cmd.subscribeUltrasonicSensor { (value) in
+        callback(value)
+    }
 }
 
-public func subscribeLightnessSensor(callback:(Int)->Void) {
-    // TODO: when called, read the sensor every 0.x seconds.
+public func subscribeLightnessSensor(callback:@escaping (Float)->Void) {
+    cmd.subscribeLightnessSensor { (value) in
+        callback(value)
+    }
 }
 
-public func getDistance() {
-    // TODO: return the last value of ultrasonic sensor
+public func getDistance(callback:@escaping (Float)->Void) {
+    cmd.getDistance(callback: callback)
 }
 
-public func getLightStrength() {
-    // TODO: return the last value of lightness sensor
+public func getLightStrength(callback:@escaping (Float)->Void) {
+    cmd.getLightStrength(callback: callback)
 }

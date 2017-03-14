@@ -7,22 +7,22 @@
  and see what shows up in the graph.
  
 */
-//#-hidden-code
 //TODO: there should be a graph / Line chart showing the lightness sensor's value
-
-
-//#-code-completion(everything, hide)
-//#-code-completion(keyword, if)
-//#-code-completion(identifier, show, beepDo(), beepMi(), beepSol(), moveForward(), moveBack(), moveLeft(), moveRight(), lightLeft(color:), lightRight(color:), lightBoth(color:))
-
-//#-end-hidden-code
-func onLightnessSensor(light: Int) {
-    plotValueInChart(light)
-}
 //#-hidden-code
+runWithCommands()
+
+execiseWithViewController = { viewController in
+//#-end-hidden-code
+ 
+func plotValueInChart(light: Float){
     
-
-
-subscribeLightnessSensor(onLightnessSensor)
-
+}
+    
+func onLightSensor(light: Float) {
+    plotValueInChart(light:light)
+}
+    
+//#-hidden-code
+    subscribeLightnessSensor(callback: onLightSensor)
+}
 //#-end-hidden-code

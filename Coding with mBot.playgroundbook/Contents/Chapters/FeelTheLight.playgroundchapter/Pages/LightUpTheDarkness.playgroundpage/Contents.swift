@@ -10,23 +10,18 @@
  
  */
 //#-hidden-code
+runWithCommands()
 
-
-//#-code-completion(everything, hide)
-//#-code-completion(keyword, if)
-//#-code-completion(identifier, show, lightLeft(color:), lightRight(color:), lightBoth(color:))
+execiseWithViewController = { viewController in
 //#-end-hidden-code
-func onLightSensor(light: Int) {
     
+func onLightSensor(light: Float) {
     //#-editable-code Tell the mBot to open the light in the darkness!
     //#-end-editable-code
-
 }
-//#-hidden-code
     
-
-
-subscribeLightnessSensor(onLightSensor)
-
+//#-hidden-code
+    subscribeLightnessSensor(callback: onLightSensor)
+}
 //#-end-hidden-code
 

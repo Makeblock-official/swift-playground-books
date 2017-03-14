@@ -3,6 +3,9 @@ import UIKit
 
 public class BasicCommands {
     public var mBot: MBot
+    private var ultrasonicCallback: ((Float)->Void)?
+    private var lightnessCallback: ((Float)->Void)?
+    
     public init(robot:MBot) {
         mBot = robot
     }
@@ -65,5 +68,35 @@ public class BasicCommands {
     public func beepSol() {
         mBot.setBuzzer(pitch:.G5, duration: .quarter)
         Thread.sleep(forTimeInterval: 1)
+    }
+    
+    public func subscribeUltrasonicSensor(callback:@escaping (Float)->Void) {
+        ultrasonicCallback = callback
+        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) {[weak self] (timer) in
+            self?.mBot.getUltrasonicSensorValue { (value) in
+                self?.ultrasonicCallback!(value)
+            }
+        }
+    }
+    
+    public func subscribeLightnessSensor(callback:@escaping (Float)->Void) {
+        lightnessCallback = callback
+        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) {[weak self] (timer) in
+            self?.mBot.getLightnessSensorValue { (value) in
+                self?.lightnessCallback!(value)
+            }
+        }
+    }
+    
+    public func getDistance(callback:@escaping (Float)->Void) {
+        mBot.getUltrasonicSensorValue { (value) in
+            callback(value)
+        }
+    }
+    
+    public func getLightStrength(callback:@escaping (Float)->Void) {
+        mBot.getLightnessSensorValue { (value) in
+            callback(value)
+        }
     }
 }
