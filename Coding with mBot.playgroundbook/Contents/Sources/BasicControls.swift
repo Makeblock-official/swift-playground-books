@@ -1,4 +1,3 @@
-import PlaygroundSupport
 import Foundation
 import UIKit
 
@@ -53,4 +52,18 @@ public class BasicCommands {
         Thread.sleep(forTimeInterval: WaitLengthForRGBLED)
     }
     
+    public func beepDo() {
+        mBot.setBuzzer(pitch:.C5, duration: .quarter)
+        Thread.sleep(forTimeInterval: 1)
+    }
+    
+    public func beepMi() {
+        mBot.setBuzzer(pitch:.E5, duration: .quarter)
+        Thread.sleep(forTimeInterval: 1)
+    }
+    
+    public func beepSol() {
+        mBot.setBuzzer(pitch:.G5, duration: .quarter)
+        Thread.sleep(forTimeInterval: 1)
+    }
 }

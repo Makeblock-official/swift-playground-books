@@ -49,15 +49,15 @@ public func helloWorld() {
 }
 
 public func beepDo() {
-    // TODO: implement the beeping sound
+    cmd.beepDo()
 }
 
 public func beepMi() {
-    // TODO: implement the beeping sound
+    cmd.beepMi()
 }
 
 public func beepSol() {
-    // TODO: implement the beeping sound
+    cmd.beepSol()
 }
 
 // subscribing functions are called outside of button-click listeners.
