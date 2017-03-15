@@ -11,6 +11,9 @@ import UIKit
 
 public class BasicControlViewController: UIViewController {
     
+    private var graphView: ScrollableGraphView!
+    private var data: [Double] = [0,0,0,0,0,0]
+    
     private var startButton: UIButton!
     
     public var listenStartButtonClicked: ((_ sender: UIButton)-> Void)?
@@ -24,6 +27,15 @@ public class BasicControlViewController: UIViewController {
         hintLabel.text = content
     }
     
+    public func setShowGraphView(show: Bool){
+        graphView.isHidden = !show
+    }
+    
+    public func appendValue(value:Double){
+        data.append(value)
+        graphView.reload(data: data, withLabels: [])
+    }
+    
     override public func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.clear
@@ -33,6 +45,16 @@ public class BasicControlViewController: UIViewController {
         view.addSubview(hintLabel)
         hintLabel.textColor = UIColor.orange
         hintLabel.text = self.defaultHintInfo
+        
+        //GraphView
+        graphView = ScrollableGraphView(frame:  CGRect(x:200, y:0, width: 300, height: 300))
+        view.addSubview(graphView)
+        graphView.isHidden = true
+        graphView.lineStyle = .smooth
+        graphView.shouldAnimateOnStartup = true
+        graphView.animationDuration = 0.2
+        graphView.shouldAutomaticallyDetectRange = true
+        graphView.set(data: data, withLabels: [])
         
         //Start Button
         startButton = UIButton()
