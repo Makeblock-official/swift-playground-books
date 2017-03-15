@@ -8,22 +8,22 @@
  Try anything by yourself!
  
 */
-//#-hidden-code
 
-    
+//#-hidden-code
+runWithCommands()
 //#-code-completion(everything, hide)
 //#-code-completion(keyword, if)
 //#-code-completion(identifier, show, beepDo(), beepMi(), beepSol(), moveForward(), moveBack(), moveLeft(), moveRight(), lightLeft(color:), lightRight(color:), lightBoth(color:))
+execiseWithViewController = { viewController in
 //#-end-hidden-code
-func onLightSensor(light: Int) {
     
+func onLightSensor(light: Float) {
     //#-editable-code Write anything you want!
     //#-end-editable-code
-    
+    viewController.setHintInfo(content: "light:\(light)");
 }
+    
 //#-hidden-code
-
-
-subscribeLightnessSensor(onLightSensor)
-
+    subscribeLightnessSensor(callback: onLightSensor)
+}
 //#-end-hidden-code

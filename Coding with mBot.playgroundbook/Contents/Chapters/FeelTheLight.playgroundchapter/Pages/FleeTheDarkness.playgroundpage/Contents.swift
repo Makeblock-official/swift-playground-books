@@ -8,21 +8,20 @@
  
  */
 //#-hidden-code
-
-
+runWithCommands()
 //#-code-completion(everything, hide)
 //#-code-completion(identifier, show, moveForward(), moveBack(), moveLeft(), moveRight())
+execiseWithViewController = { viewController in
 //#-end-hidden-code
-func onLightSensor(light: Int) {
-    if light < /*#-editable-code*/<#T##20##Int#>/*#-end-editable-code*/ {
+    
+func onLightSensor(light: Float) {
+    if light < Float(/*#-editable-code*/20.0/*#-end-editable-code*/) {
         //#-editable-code Tell the mBot to moveForward()!
         //#-end-editable-code
     }
 }
-//#-hidden-code
     
-
-
-subscribeLightnessSensor(onLightSensor)
-
+//#-hidden-code
+    subscribeLightnessSensor(callback: onLightSensor)
+}
 //#-end-hidden-code
