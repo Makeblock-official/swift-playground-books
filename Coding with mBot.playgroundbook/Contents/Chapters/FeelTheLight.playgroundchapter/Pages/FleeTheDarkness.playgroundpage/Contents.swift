@@ -9,7 +9,8 @@
  */
 //#-hidden-code
 runWithCommands()
-
+//#-code-completion(everything, hide)
+//#-code-completion(identifier, show, moveForward(), moveBack(), moveLeft(), moveRight())
 execiseWithViewController = { viewController in
 //#-end-hidden-code
     

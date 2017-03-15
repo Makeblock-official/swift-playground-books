@@ -11,7 +11,9 @@
  */
 //#-hidden-code
 runWithCommands()
-
+//#-code-completion(everything, hide)
+//#-code-completion(keyword, if)
+//#-code-completion(identifier, show, lightLeft(color:), lightRight(color:), lightBoth(color:))
 execiseWithViewController = { viewController in
 //#-end-hidden-code
     
