@@ -9,14 +9,14 @@
     [
         {
             "title": "Explore Neuron",
-            "overviewSubtitle": "Swift 4.1 Edition",
+            "overviewSubtitle": "Swift 5.0 Edition",
             "detailSubtitle": "Learn to play with Neuron.",
             "description": "In the Neuron playgrounds,you can program every single Neuron block and combine them freely to perform different tasks, like singing, measuring, rotating the motor. Shortly speaking, make Neuron do anything you can imagine. Also, you have the chance to get your paper cut-outs moving since a variety of Neuron projects are available in the Playgrounds, including Playing the Piano and Automatic Car. You can even build a robot here. Explore Neuron in the Playgrounds!",
             "contentIdentifier": "com.makeblock.neuron.classes",
-            "contentVersion": "1.0",
+            "contentVersion": "1.2",
             "url": "neuron/neuron.playgroundbook.zip",
             "publishedDate": "2018-06-06T15:48:57+00:00",
-            "lastUpdatedDate": "2018-06-06T15:50:57+00:00",
+            "lastUpdatedDate": "2019-06-10T15:50:57+00:00",
             "thumbnailURL": "neuron/thumbnail.png",
             "bannerImageURL": "neuron/banner.png",
             "additionalInformation":
@@ -27,14 +27,14 @@
                 },
                 {
                     "name": "Version",
-                    "value": "1.0.0"
+                    "value": "1.2.0"
                 },                {
                     "name": "Released",
-                    "value": "August 7,2018"
+                    "value": "June 10,2019"
                 },
                 {
                     "name": "Edition",
-                    "value": "Swift 4.1 Edition"
+                    "value": "Swift 5.0 Edition"
                 },
                 {
                     "name": "Languages",
@@ -48,14 +48,14 @@
         },
         {
             "title": "Neuron Template",
-            "overviewSubtitle": "Swift 4.1 Edition",
+            "overviewSubtitle": "Swift 5.0 Edition",
             "detailSubtitle": "Learn to program with Neuron.",
             "description": "In the Neuron playgrounds,you can use commands from the Explore Neuron to program and control your Neurons.Immediately start programming.",
             "contentIdentifier": "com.makeblock.neuron.template",
-            "contentVersion": "1.0",
+            "contentVersion": "1.1",
             "url": "neuron-template/neuron-template.playgroundbook.zip",
             "publishedDate": "2018-06-06T15:48:57+00:00",
-            "lastUpdatedDate": "2018-06-06T15:50:57+00:00",
+            "lastUpdatedDate": "2019-06-10T15:50:57+00:00",
             "thumbnailURL": "neuron-template/thumbnail.png",
             "bannerImageURL": "neuron-template/banner.png",
             "additionalInformation":
@@ -66,14 +66,14 @@
                 },
                 {
                     "name": "Version",
-                    "value": "1.0.0"
+                    "value": "1.1.0"
                 },                {
                     "name": "Released",
-                    "value": "August 7,2018"
+                    "value": "June 10,2019"
                 },
                 {
                     "name": "Edition",
-                    "value": "Swift 4.1 Edition"
+                    "value": "Swift 5.0 Edition"
                 },
                 {
                     "name": "Languages",
@@ -87,14 +87,14 @@
         },
         {
             "title": "Codey Rocky Template",
-            "overviewSubtitle": "Swift 4.1 Edition",
+            "overviewSubtitle": "Swift 5.0 Edition",
             "detailSubtitle": "Learn to program with Codey Rocky.",
             "description": "Welcome to Codey Rocky Swift Template. In this template, you can control your Codey Rocky with Swift. You may also write lessons based on this template.",
             "contentIdentifier": "com.makeblock.codey.template",
-            "contentVersion": "1.0",
+            "contentVersion": "1.1",
             "url": "codey-template/codey-template.playgroundbook.zip",
             "publishedDate": "2018-06-06T15:48:57+00:00",
-            "lastUpdatedDate": "2018-06-06T15:50:57+00:00",
+            "lastUpdatedDate": "2019-06-10T15:50:57+00:00",
             "thumbnailURL": "codey-template/thumbnail.png",
             "bannerImageURL": "codey-template/banner.png",
             "additionalInformation":
@@ -105,14 +105,14 @@
                 },
                 {
                     "name": "Version",
-                    "value": "1.0.0"
+                    "value": "1.1.0"
                 },                {
                     "name": "Released",
-                    "value": "August 7,2018"
+                    "value": "June 10,2019"
                 },
                 {
                     "name": "Edition",
-                    "value": "Swift 4.1 Edition"
+                    "value": "Swift 5.0 Edition"
                 },
                 {
                     "name": "Languages",

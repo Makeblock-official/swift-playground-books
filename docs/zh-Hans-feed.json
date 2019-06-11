@@ -9,14 +9,14 @@
     [
         {
             "title": "探索神经元",
-            "overviewSubtitle": "Swift 4.1 版本",
+            "overviewSubtitle": "Swift 5.0 版本",
             "detailSubtitle": "学会使用神经元",
             "description": "在Neuron的Playgroud中，你可以为每个Neuron模块编写程序，任意组合它们，让它们唱歌、测量、旋转电机…创造出任何你想要的效果，同时，它们还可以让你的静态纸模动起来：演奏钢琴、自动小车，甚至组装一个机器人，更多内容等待你的探索。",
             "contentIdentifier": "com.makeblock.neuron.classes",
-            "contentVersion": "1.0",
+            "contentVersion": "1.2",
             "url": "neuron/neuron.playgroundbook.zip",
             "publishedDate": "2018-06-06T15:48:57+00:00",
-            "lastUpdatedDate": "2018-06-06T15:50:57+00:00",
+            "lastUpdatedDate": "2019-06-10T15:50:57+00:00",
             "thumbnailURL": "neuron/thumbnail.png",
             "bannerImageURL": "neuron/banner.png",
             "additionalInformation":
@@ -27,14 +27,14 @@
                 },
                 {
                     "name": "版本",
-                    "value": "1.0.0"
+                    "value": "1.2.0"
                 },                {
                     "name": "发布",
-                    "value": "2018年8月7日"
+                    "value": "2019年6月10日"
                 },
                 {
                     "name": "版本",
-                    "value": "Swift 4.1 版本"
+                    "value": "Swift 5.0 版本"
                 },
                 {
                     "name": "语言",
@@ -48,14 +48,14 @@
         },
         {
             "title": "神经元模板",
-            "overviewSubtitle": "Swift 4.1 版本",
+            "overviewSubtitle": "Swift 5.0 版本",
             "detailSubtitle": "学习神经元编程",
             "description": "在神经元模版中，你可以使用在探索神经元中学习到的所有命令，编程并操控你的神经元项目。立刻开始编程吧。",
             "contentIdentifier": "com.makeblock.neuron.template",
-            "contentVersion": "1.0",
+            "contentVersion": "1.1",
             "url": "neuron-template/neuron-template.playgroundbook.zip",
             "publishedDate": "2018-06-06T15:48:57+00:00",
-            "lastUpdatedDate": "2018-06-06T15:50:57+00:00",
+            "lastUpdatedDate": "2019-06-10T15:50:57+00:00",
             "thumbnailURL": "neuron-template/thumbnail.png",
             "bannerImageURL": "neuron-template/banner.png",
             "additionalInformation":
@@ -66,14 +66,14 @@
                 },
                 {
                     "name": "版本",
-                    "value": "1.0.0"
+                    "value": "1.1.0"
                 },                {
                     "name": "发布",
-                    "value": "2018年8月7日"
+                    "value": "2019年6月10日"
                 },
                 {
                     "name": "版本",
-                    "value": "Swift 4.1 版本"
+                    "value": "Swift 5.0 版本"
                 },
                 {
                     "name": "语言",
@@ -87,14 +87,14 @@
         },
         {
             "title": "程小奔模板",
-            "overviewSubtitle": "Swift 4.1 版本",
+            "overviewSubtitle": "Swift 5.0 版本",
             "detailSubtitle": "学习程小奔编程",
             "description": "欢迎使用程小奔模板，在此模板中，你可以使用Swift来控制程小奔。您也可以基于此模板开发课程。",
             "contentIdentifier": "com.makeblock.codey.template",
-            "contentVersion": "1.0",
+            "contentVersion": "1.1",
             "url": "codey-template/codey-template.playgroundbook.zip",
             "publishedDate": "2018-06-06T15:48:57+00:00",
-            "lastUpdatedDate": "2018-06-06T15:50:57+00:00",
+            "lastUpdatedDate": "2019-06-10T15:50:57+00:00",
             "thumbnailURL": "codey-template/thumbnail.png",
             "bannerImageURL": "codey-template/banner.png",
             "additionalInformation":
@@ -105,14 +105,14 @@
                 },
                 {
                     "name": "版本",
-                    "value": "1.0.0"
+                    "value": "1.1.0"
                 },                {
                     "name": "发布",
-                    "value": "2018年8月7日"
+                    "value": "2019年6月10日"
                 },
                 {
                     "name": "版本",
-                    "value": "Swift 4.1 版本"
+                    "value": "Swift 5.0 版本"
                 },
                 {
                     "name": "语言",

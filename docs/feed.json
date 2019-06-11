@@ -9,7 +9,7 @@
     [
         {
             "title": "Neuron Template",
-            "overviewSubtitle": "Swift 4.1 Edition",
+            "overviewSubtitle": "Swift 5.0 Edition",
             "detailSubtitle": "Learn to program with Neuron.",
             "description": "In the Neuron playgrounds,you can program every single Neuron block and combine them freely to perform different tasks, like singing, measuring, rotating the motor. Shortly speaking, make Neuron do anything you can imagine. Also, you have the chance to get your paper cut-outs moving since a variety of Neuron projects are available in the Playgrounds, including Playing the Piano and Automatic Car. You can even build a robot here. Explore Neuron in the Playgrounds!",
             "contentIdentifier": "com.makeblock.codey",
@@ -18,7 +18,7 @@
             "thumbnailURL": "codey/thumbnail.png",
             "bannerImageURL": "codey/banner.png",
             "publishedDate": "2018-06-06T15:48:57+00:00",
-            "lastUpdatedDate": "2018-06-06T15:50:57+00:00",
+            "lastUpdatedDate": "2019-06-10T15:50:57+00:00",
             "additionalInformation":
             [
                 {
@@ -30,7 +30,7 @@
                     "value": "1.0.0"
                 },                {
                     "name": "Edition",
-                    "value": "Swift 4.1 Edition"
+                    "value": "Swift 5.0 Edition"
                 },
                 {
                     "name": "Languages",
